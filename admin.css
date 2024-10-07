@@ -1,0 +1,111 @@
+/* Admin Chat Styles */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #f4f4f4;
+
+}
+
+header {
+
+    text-align: center;
+
+    background-color: #1a73e8;
+
+    padding: 20px;
+
+    color: white;
+
+}
+
+.support-section {
+
+    padding: 20px;
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+}
+
+.chatbox-messages {
+
+    height: 300px;
+
+    overflow-y: scroll;
+
+    border: 1px solid #ddd;
+
+    padding: 15px;
+
+    background-color: #fff;
+
+    border-radius: 8px;
+
+    margin-bottom: 15px;
+
+}
+
+input {
+
+    padding: 10px;
+
+    width: calc(100% - 22px);
+
+    margin-bottom: 10px;
+
+    border-radius: 4px;
+
+    border: 1px solid #ccc;
+
+    font-size: 16px;
+
+}
+
+button {
+
+    padding: 10px;
+
+    width: 100%;
+
+    background-color: #1a73e8;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+
+    font-size: 16px;
+
+}
+
+button:hover {
+
+    background-color: #155aa8;
+
+}
+
+@media (max-width: 600px) {
+
+    .chatbox-messages {
+
+        height: 250px;
+
+    }
+
+    input, button {
+
+        font-size: 14px;
+
+    }
+
+}
